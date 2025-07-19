@@ -5,7 +5,8 @@
 enum class ActionResult {
     Success,
     Fail,
-    Invalid
+    RequiredComponentNotPresent,
+    OutOfRange
 };
 
 class Action {

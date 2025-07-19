@@ -7,7 +7,7 @@ int main() {
     InitWindow(400, 400, "Together");
     SetTargetFPS(60);
 
-    Actor player{};
+    Actor player{default_position, {10, 10}};
     
 
 
